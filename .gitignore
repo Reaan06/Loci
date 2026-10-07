@@ -1,0 +1,52 @@
+# Environment files (local secrets)
+.env
+.env.*
+
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# SQLite databases and write-ahead logs
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Backups
+backups/
+*.backup
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Editor and OS private files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Tooling and agent metadata
+odd/
+tasks/
+.agent/
+.atl/
+.codegraph/
+.claude/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
